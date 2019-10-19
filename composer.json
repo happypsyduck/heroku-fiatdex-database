@@ -1,7 +1,4 @@
 {
-  "require" : {
-    "ext-sqlite3": "*"
-  },
   "require-dev": {
     "heroku/heroku-buildpack-php": "*"
   }
