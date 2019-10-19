@@ -1,4 +1,6 @@
 <?php
+require('../vendor/autoload.php'); // Load composer dependencies
+
 // This is the code that must be ran server-side to interact with FiatDex Marketplace
 // This handles all the database code using SQLite v3 database
 
