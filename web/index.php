@@ -21,7 +21,7 @@ if(isset($_GET["request"])){
 	header("Content-Type: application/javascript"); //Force browser to see it as Javascript
 	echo $resp;
 }else{
-  echo "This FiatDex database must be queried by JSONP";
+  echo "This FiatDex proxy must be queried by JSONP";
 }
 
 ?>
